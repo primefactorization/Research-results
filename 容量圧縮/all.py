@@ -3,7 +3,7 @@ import os
 import time
 import sympy
 
-stop = 100000
+stop = #ここに素数の個数を入力
 
 def clear_console():
     os.system('clear')
@@ -236,6 +236,6 @@ print(f"Elapsed time: {b} seconds")
 abc =decimal.Decimal(1024)
 
 with open("結果.txt","a") as f:
-    f.write(str(stop) + "この素数\n")
+    f.write(str(stop) + "個の素数\n")
     f.write(f"{str(get_file_size('huffman_tree.json')/abc/abc + get_file_size('encoded_data.bin')/abc/abc)}\n")
     f.write(f"Elapsed time: {b} seconds\n")
