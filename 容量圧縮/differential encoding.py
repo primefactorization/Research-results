@@ -93,6 +93,6 @@ b = b / 5
 abc =decimal.Decimal(1024)
 
 with open("results.txt","a") as f:
-    f.write(str(stop) + "この素数\n")
+    f.write(str(stop) + "個の素数\n")
     f.write(f"{str(get_file_size('sosuu_angou.txt')/abc/abc)}\n")
     f.write(f"Elapsed time: {b} seconds\n
