@@ -1,8 +1,8 @@
 import random
 
 number_len =#ここに数字の桁数を入力
-start = 10 ** number_len
-end = 10 ** (number_len + 1)
+start = 10 ** (number_len - 1)
+end = 10 ** number_len
 # ◯桁の乱数を10個生成（重複なし）
 random_numbers = []
 while len(random_numbers) < 10:
